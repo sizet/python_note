@@ -1,0 +1,127 @@
+<!-- © -->
+
+<html>
+
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body class="css_body">
+
+<div class="css_div_hook" id="hook_install_python_01"></div>
+<div class="css_div_box_frame_full">
+  <div class="css_div_box_title">安裝 Python</div>
+  <div class="css_div_box_content">
+    <br>
+
+    <table class="css_table_box">
+      <tr>
+        <td class="css_td_box">
+          在 Windows 7 x64 上安裝.
+          <br><br>
+          如果需要安裝 Python2 的話 :<br>
+          <div class="css_div_block">
+            1. 安裝設定.<br>
+            安裝路徑設為 <font class="css_font_b1">C:\Python2</font>
+          </div>
+          <br>
+          <div class="css_div_block">
+            2. 設定環境變數 <font class="css_font_g1">Path</font>.<br>
+            在 <font class="css_font_g1">Path</font> 尾端加入 Python2 的安裝路徑
+            "<font class="css_font_p1">;C:\Python2</font>".
+          </div>
+          <br><br>
+          安裝 Python3 :<br>
+          <div class="css_div_block">
+            1. 安裝設定.<br>
+            安裝時選擇 <font class="css_font_g1">[Customize installation]</font>,<br>
+            <font class="css_font_g1">[Add Python to environment variables]</font>
+            <font class="css_font_r1">取消勾選</font>,<br>
+            安裝路徑設為 <font class="css_font_b1">C:\Python3</font>.
+          </div>
+          <br>
+          <div class="css_div_block">
+            2. 設定環境變數 <font class="css_font_g1">Path</font>.<br>
+            如果沒安裝 Python2 :<br>
+            在 <font class="css_font_g1">Path</font> 尾端加入 Python3 的安裝路徑
+            "<font class="css_font_p1">;C:\Python3;C:\Python3\Scripts</font>".<br>
+            如果有安裝 Python2,  需要 Python2/Python3 共存 :<br>
+            Python2 的變數要在 Python3 的變數前面,<br>
+            在 <font class="css_font_g1">Path</font> 尾端加入
+            "<font class="css_font_p1">;C:\Python2;C:\Python3;C:\Python3\Scripts</font>".<br>
+          </div>
+          <br><br>
+          使用 pip 安裝套件的方法 :<br>
+          <div class="css_div_block">
+            Python2 :<br>
+            <font class="css_font_b1">py -2 -m pip install &lt;package&gt;</font><br>
+            Python3 :<br>
+            <font class="css_font_b1">py -3 -m pip install &lt;package&gt;</font>
+          </div>
+          <br><br>
+          執行 Python 程式的方法 :<br>
+          <div class="css_div_block">
+            Python2 的程式 :<br>
+            <font class="css_font_b1">py -2 &lt;程式檔案路徑&gt;</font><br>
+            Python3 的程式 :<br>
+            <font class="css_font_b1">py -3 &lt;程式檔案路徑&gt;</font>
+          </div>
+          <br>
+          <div class="css_div_block">
+            或是在程式開頭指定使用 Python2 或 Python3 :<br>
+            Python2 :<br>
+            <font class="css_font_g1">#!/usr/bin/env python2</font><br>
+            Python3 :<br>
+            <font class="css_font_g1">#!/usr/bin/env python3</font>
+            <br><br>
+            再使用 :<br>
+            <font class="css_font_b1">py &lt;程式檔案路徑&gt;</font>
+          </div>
+        </td>
+      </tr>
+    </table>
+    <br>
+
+    <table class="css_table_box">
+      <tr>
+        <td class="css_td_box">
+          在 Xubuntu 16.04 x64 上安裝.
+          <br><br>
+          預設已經安裝好 Python-2.7 和 Python-3.5.
+          <br><br>
+          安裝 pip :<br>
+          <div class="css_div_block">
+            Python2 :<br>
+            <font class="css_font_b1">apt-get install python-pip</font><br>
+            Python3 :<br>
+            <font class="css_font_b1">apt-get install python3-pip</font>
+          </div>
+          <br><br>
+          使用 pip 安裝套件的方法 :<br>
+          <div class="css_div_block">
+            Python2 :<br>
+            <font class="css_font_b1">py -2 -m pip install &lt;package&gt;</font><br>
+            Python3 :<br>
+            <font class="css_font_b1">py -3 -m pip install &lt;package&gt;</font>
+          </div>
+          <br><br>
+          執行 Python 程式的方法 :<br>
+          <div class="css_div_block">
+            Python2 的程式 :<br>
+            <font class="css_font_b1">python2 &lt;程式檔案路徑&gt;</font><br>
+            Python3 的程式 :<br>
+            <font class="css_font_b1">python3 &lt;程式檔案路徑&gt;</font>
+          </div>
+        </td>
+      </tr>
+    </table>
+    <br>
+
+  </div>
+</div>
+<br>
+
+</body>
+
+</html>
